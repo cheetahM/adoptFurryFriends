@@ -1,0 +1,20 @@
+{
+  "name": "adoptFurryFriends",
+  "version": "1.0.0",
+  "description": "Adopt yoiur best furry friends.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheetahM/adoptFurryFriends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheetahM/adoptFurryFriends/issues"
+  },
+  "homepage": "https://github.com/cheetahM/adoptFurryFriends#readme"
+}
