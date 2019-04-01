@@ -4,7 +4,7 @@
   "description": "Adopt yoiur best furry friends.",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "start": "parcel index.html",
     "prettier": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
