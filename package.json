@@ -4,6 +4,8 @@
   "description": "Adopt yoiur best furry friends.",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/cheetahM/adoptFurryFriends/issues"
   },
-  "homepage": "https://github.com/cheetahM/adoptFurryFriends#readme"
+  "homepage": "https://github.com/cheetahM/adoptFurryFriends#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "prettier": "^1.16.4"
+  }
 }
