@@ -4,6 +4,7 @@
   "description": "Adopt yoiur best furry friends.",
   "main": "index.js",
   "scripts": {
+    "clear-build-cache": "rm -rf dist/ .cache/",
     "start": "parcel index.html",
     "prettier": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
@@ -25,5 +26,9 @@
     "eslint-config-prettier": "^4.1.0",
     "parcel-bundler": "^1.12.3",
     "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
